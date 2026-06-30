@@ -2,20 +2,25 @@
   "name": "wdio-appium-ui-tests",
   "type": "module",
   "devDependencies": {
-    "@types/node": "^25.3.0",
-    "@wdio/appium-service": "^9.24.0",
-    "@wdio/cli": "^9.24.0",
-    "@wdio/globals": "^9.23.0",
-    "@wdio/local-runner": "^9.24.0",
-    "@wdio/mocha-framework": "^9.24.0",
-    "@wdio/spec-reporter": "^9.24.0",
-    "appium-uiautomator2-driver": "^6.9.0",
-    "expect-webdriverio": "^5.6.4"
+    "@types/node": "^25.9.4",
+    "@wdio/allure-reporter": "^9.29.1",
+    "@wdio/appium-service": "^9.29.1",
+    "@wdio/cli": "^9.29.1",
+    "@wdio/globals": "^9.29.1",
+    "@wdio/local-runner": "^9.29.1",
+    "@wdio/mocha-framework": "^9.29.1",
+    "@wdio/spec-reporter": "^9.29.1",
+    "@wdio/visual-service": "^10.0.0",
+    "appium-inspector-plugin": "^2026.5.1",
+    "appium-uiautomator2-driver": "^6.9.3",
+    "expect-webdriverio": "^5.7.0",
+    "wdio-wait-for": "^3.1.1"
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts"
   },
   "dependencies": {
-    "appium": "^3.2.0"
+    "appium": "^3.2.0",
+    "badge-maker": "^6.0.0"
   }
 }
